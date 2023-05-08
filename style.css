@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: darkred;
+}
+
+main{
+    height: 600px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#atividade{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #666;
+    color: #fff;
+    padding: 0 10px;
+    margin: 15px 0;
+
+}
+
+ul li{
+    background-color: #eee;
+    color: #333;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+}
+
+ul .fa-check, .fa-trash{
+    position: absolute;
+    cursor: pointer;
+}
+
+ul .fa-trash{
+    color: red;
+    right: 15px;
+}
+
+ul .fa-check{
+    color: green;
+    right: 40px;
+}
+
+ul .checked{
+    text-decoration: line-through;
+    background-color: lightgreen;
+    transition: .2s;
+}
+
+button{
+    justify-content: center;
+    border-radius: 5px;
+    margin: 1px 10px;
+    padding: 0 5px;
+    height: 5vh;
+    cursor: pointer;
+    background-color: rgb(189, 255, 174);
+    
+}
+
+
+
