@@ -43,6 +43,8 @@ div{
 }
 
 ul li{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #eee;
     color: #333;
     height: 40px;
